@@ -1,0 +1,86 @@
+.indoorunMap_map {
+  height:100%;
+  /*background:url(../images/reseau.png) repeat;*/
+  background-size:50px auto;
+  position:absolute;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right:0;
+  text-align:center;
+  font-size:16px;
+  line-height:24px;
+  color:#e63174;
+}
+
+/*放大缩小样式*/
+.scale_btn {
+  position: fixed;
+  right: 1rem;
+  bottom: 14%;
+  z-index: 11;
+}
+
+.scale_btn div {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.scale_btn div img {
+  width: 100%;
+  height: 100%;
+}
+
+.fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.fadeout {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 1s linear;
+}
+
+.canvas-frame {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 414px;
+  height: 736px;
+}
+
+.page {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.lc_div {
+  position: absolute;
+  right:1.1rem;
+  top:2.3rem;
+  border-radius: 5px;
+  width: 2.2rem;
+  height: 2.3rem;
+  z-index: 12;
+}
+
+.lc_divcom {
+  width: 100%;
+  height: 2.3rem;
+  line-height: 2.1rem;
+  font-size: 16px;
+}
+
+#composs {
+  position: absolute;
+  left: 1.5rem;
+  top: 12rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  transform: rotate(0deg);
+  background: url("./cop.png") transparent no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,86 @@
+#footer {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background: #f8f8f8;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  display: -webkit-flex; }
+
+.normalbtn, #emptyspace, #publicfacility {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute; }
+
+* {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none; }
+
+body, html {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 62.5%;
+  font-family: "Microsoft Yahei", "Arial", "Helvetica"; }
+
+#floorList {
+  position: absolute;
+  right: 1.5rem;
+  z-index: 100;
+  top: 20rem; }
+
+#emptyspace {
+  top: 12rem;
+  right: 1.5rem;
+  z-index: 0;
+}
+
+#locateState {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 1.5rem;
+  bottom: 5rem; }
+
+#publicfacility {
+  left: 1rem;
+  bottom: 23%; }
+
+#navigate {
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  position: absolute; }
+
+#alertbox {
+  z-index: 999; }
+
+#findcarbtn {
+  height: 2.5rem;
+  position: absolute;
+  left: 1rem;
+  top: 20rem; }
+
+#bottombar {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background-color: #f5a613; }
+
+#debug {
+  z-index: 1000;
+  position: absolute;
+  font-size: 0.5rem;
+  visibility: hidden; }
+
+/*# sourceMappingURL=app.css.map */
